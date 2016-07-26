@@ -1,0 +1,239 @@
+body {
+    background-color: rgb(238, 243,250);
+}
+
+
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ADCBCC;
+}
+
+
+.back-to-top i {
+    font-size: 60px;
+}
+
+
+
+.btn{
+    margin-top:2px;
+    border:none;
+    border-radius:0px;
+
+}
+
+
+.carousel-caption{
+    text-transform: uppercase; 
+
+}
+#about{
+    margin-bottom:0px;
+    background-color:white;
+}
+#ourwork{
+    margin-bottom:0px;
+    background-color:rgb(50,50,50);
+    color:white;
+}
+#thestudio{
+    margin-bottom:0px;
+    background-color:rgb(232,99,90);
+}
+#henry{
+    margin-bottom:0px;
+    width:100%;
+
+}
+#subscribe{
+    margin-bottom:0px;
+    background-color:rgb(107, 180, 173);
+
+}
+//#e5e5e5
+
+
+.container-fluid{
+    margin-top:0px;
+    padding:12px;
+    color:white;
+
+}
+.navbar{
+    background-color:rgba(107,162,157,0.5);
+    color:white;
+}
+
+.navbar-inverse{
+
+    color:#E86458;
+}
+
+.panel {
+    border: 0;
+    border-radius:0px;
+}
+
+.tooltip-inner {
+    background-color: #6BB4AD;
+    color: #fff;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #6BB4AD;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: #6BB4AD;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #6BB4AD;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: #6BB4AD;
+}
+table{
+    border:none;
+}
+
+.col-md-3:hover{
+    color:red;
+
+}
+.img-responsive:hower{
+    background-color:red;
+    color:red;
+}
+
+.lastone{
+    background-color:white;
+}
+.footer{
+    background-color:#e5e5e5;
+    height:20px;
+
+}
+.table-responsive{
+    border:0px;
+}
+li:hover{
+    background-color:rgba(85,146,125,0.5);
+}
+
+.form-control{
+    background-color:#B5D9D7;
+}
+
+.circle{
+    width:60px;height:60px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#E9625C;
+}
+
+//carousel background:rgb(107, 180, 173);
+
+
+
+
+
+
+
+//scroll
+#BlueScroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#BlueScroll::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#BlueScroll::-webkit-scrollbar-thumb
+{
+    background-color: #3366FF;
+    border-radius: 10px;
+    background-image: -webkit-linear-gradient(0deg,
+        rgba(255, 255, 255, 0.5) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(255, 255, 255, 0.5) 75%,
+        transparent 75%,
+        transparent)
+}
+
+#OrangeScroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#OrangeScroll::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#OrangeScroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #F90;	
+    background-image: -webkit-linear-gradient(90deg,
+        rgba(255, 255, 255, .2) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(255, 255, 255, .2) 50%,
+        rgba(255, 255, 255, .2) 75%,
+        transparent 75%,
+        transparent)
+}
+
+#GreenScroll::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+#GreenScroll::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#GreenScroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image: -webkit-gradient(linear,
+        40% 0%,
+        75% 84%,
+        from(#4D9C41),
+        to(#19911D),
+        color-stop(.6,#54DE5D))
+}
+
+
+//end of scroll
